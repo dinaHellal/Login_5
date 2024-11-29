@@ -5,13 +5,15 @@
 }
 :root {
   --white: #ffffff;
+  --smoke-white: #ffffffc9;
   --black: #000000;
   --palm-leaf: #779341;
   --blueberry: #4285f4;
+  --baby-blue: #a7c2ee38;
   --gray: #808080;
 }
 body {
-  background-image: url(/assets/images/OIP.jfif);
+  background-image: url(/assets/images/bg.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,6 +47,106 @@ header {
 }
 header .logo {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 15px;
   color: var(--black);
 }
+.container .form {
+  display: flex;
+  width: 500px;
+  height: 650px;
+  flex-wrap: wrap;
+  border: 0.5px solid var(--white);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 40px;
+  margin-left: 600px;
+  justify-content: space-between;
+}
+
+.form p {
+  margin-left: 30px;
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.form span {
+  color: var(--palm-leaf);
+}
+.form .signin {
+  margin-top: 60px;
+}
+.form .signin h1 {
+  margin-left: 40px;
+  font-weight: 500;
+  font-size: 50px;
+}
+.container .form .have-an-account h2 {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 60px;
+  margin-right: 35px;
+  color: var(--gray);
+}
+.container .form .have-an-account h2 a {
+  color: var(--palm-leaf);
+}
+.sign-with {
+  display: inline;
+}
+.container .form .google-image {
+  display: flex;
+  align-items: center;
+  background-color: var(--baby-blue);
+  color: var(--blueberry);
+  width: 300px;
+  height: 50px;
+  margin-left: 30px;
+  padding: 15px;
+  border-radius: 9px;
+  gap: 20px;
+}
+.container .form .google-image h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.face-image img {
+  width: 45px;
+  margin-right: 25px;
+  gap: 20px;
+  background-color: var(--white);
+}
+.container .form form{
+      margin-left: 30px;
+
+}
+.container .form form label{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+margin-bottom: 50px;
+}
+.container .form form input{
+  width: 400px;
+  padding: 24px;
+  border: 1px solid var(--gray);
+  outline: none;
+  border-radius: 9px;
+  margin: 15px 5px;
+}
+.container .form form input::placeholder{
+  color: var(--gray);
+}
+.container .form form a {
+  color: var(--blueberry);
+  font-size: 13px;
+  margin-left:280px ;
+  margin-bottom: 20px;
+
+}
+.container .form form .login-btn{
+  background-color: var(--palm-leaf);
+  color: var(--white);
+  font-size: 15px;
+  width: 236px;
+margin-left:170px ;
+}
+
