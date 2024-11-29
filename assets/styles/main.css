@@ -11,7 +11,12 @@
   --gray: #808080;
 }
 body {
+  background-image: url(/assets/images/OIP.jfif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Poppins", serif;
+  height: 100vh;
 }
 a {
   text-decoration: none;
@@ -35,4 +40,11 @@ a {
     width: 1170px;
   }
 }
-
+header {
+  padding: 30px 0;
+}
+header .logo {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--black);
+}
