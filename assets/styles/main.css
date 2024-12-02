@@ -15,7 +15,6 @@
 body {
   background-image: url(/assets/images/bg.jpeg);
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
   font-family: "Poppins", serif;
   height: 100vh;
@@ -126,11 +125,26 @@ margin-bottom: 50px;
 }
 .container .form form input{
   width: 400px;
-  padding: 24px;
-  border: 1px solid var(--gray);
+  padding: 19px;
   outline: none;
+  border: none;
   border-radius: 9px;
+    border:1px solid var(--gray);
+
   margin: 15px 5px;
+}
+.sign-in form .input-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 30px 0;
+}
+.sign-in form .input-container div {
+  flex-grow: 1;
+}
+.sign-in form .input-container input {
+  flex-basis: 100%;
 }
 .container .form form input::placeholder{
   color: var(--gray);
@@ -144,9 +158,9 @@ margin-bottom: 50px;
 }
 .container .form form .login-btn{
   background-color: var(--palm-leaf);
+  padding: 20px;
   color: var(--white);
   font-size: 15px;
   width: 236px;
 margin-left:170px ;
 }
-

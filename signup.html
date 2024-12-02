@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sign up</title>
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="index.html" class="logo">Your Logo</a>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <div class="form">
+            <div class="signin">
+              <p>Welcome to <span>LOREM</span></p>
+            </div>
+            <h1>Sign up</h1>
+
+            <div class="have-an-account">
+              <h2>
+                No Account ?<a href="index.html"> <br />Sign in</a>
+              </h2>
+            </div>
+            <div class="google-image">
+              <img src="assets/images/google.png" alt="google" />
+              <h2>Sign in with Google</h2>
+            </div>
+            <div class="face-image">
+              <img src="assets/images/Facebook.png" alt="Facebook" />
+              <img src="assets/images/apple.png" alt="apple" />
+            </div>
+            <form method="post">
+              <label for="email">Enter your username or email address</label>
+              <br />
+              <input type="email" id="email" placeholder="Username or email address" autofocus required /><br />
+              <div class="input-container">
+                <div>
+                  <label for="username">Username</label>
+                  <input type="text" name="username" id="username" placeholder="User name" required />
+                </div>
+                <div>
+                  <label for="contact-number">Contact Number</label>
+                  <input type="text" name="contact-number" id="contact-number" placeholder="Contact number" />
+                </div>
+              </div>
+              <br />
+              <label for="password">Enter your Password</label><br />
+              <input type="password" id="password" placeholder="password" required />
+              <br />
+              <a href="#" class="forgot-password">Forgot Password</a> <br />
+              <input type="submit" value="Sign in" class="login-btn" />
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
