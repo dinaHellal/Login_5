@@ -49,6 +49,7 @@ header .logo {
   font-size: 15px;
   color: var(--black);
 }
+
 .container .form {
   display: flex;
   width: 500px;
